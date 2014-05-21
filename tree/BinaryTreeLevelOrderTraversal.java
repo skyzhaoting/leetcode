@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class BinaryTreeLevelOrderTraversal
 {
 	/**
-	 * 层序遍历
+	 * 层序遍历 每层的结尾都以null标注
 	 */
 	public ArrayList<ArrayList<Integer>> levelOrder(TreeNode root)
 	{

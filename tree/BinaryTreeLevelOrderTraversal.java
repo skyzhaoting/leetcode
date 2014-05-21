@@ -30,6 +30,7 @@ public class BinaryTreeLevelOrderTraversal
 			} else
 			{
 				res.add(level);
+				/*清空的操作 用clear把res中的level也清空了*/
 				level = new ArrayList<Integer>();
 				if (!queue.isEmpty())
 					queue.add(null);

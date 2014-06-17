@@ -4,7 +4,10 @@ public class StringtoInteger
 {
 	/**
 	 * 空格和符号 首先考虑
-	 * 结束条件 1遇到异常的字符截断 2 整数越界的问题 3 字符串结束
+	 * 结束条件 
+	 * 1遇到异常的字符截断 
+	 * 2 整数越界的问题(返回最接近的整数) 
+	 * 3 字符串结束
 	 */
     public int atoi(String str) {
         if(str == null)

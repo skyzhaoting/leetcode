@@ -5,6 +5,7 @@ public class LongestCommonPrefix
 	/**
 	 * 最长公共前缀 
 	 * 暴力法
+	 * 时间复杂度O(n*m)
 	 */
     public String longestCommonPrefix(String[] strs) {
         String res = "";
